@@ -112,7 +112,37 @@ def create_table(self, cursor, platform_name):
             last_login DATE,
             usage_stats TEXT,
             subscription_tier VARCHAR(20),
-            preferences TEXT,
+            preferences TEXT,  
             activity_log TEXT
-        )
-    ''')
+```
+
+
+## Additional Documentation
+
+### Github Repository Structure
+
+```
+ai-platform-user-metadata/
+├── README.md
+├── requirements.txt
+├── main.py
+├── data/
+│   ├── ai_innovate.csv
+│   ├── cortex_analytics.csv
+│   ├── neuronix.csv
+│   ├── ...
+└── docs/
+    ├── database_schema.png
+    ├── usage_instructions.md
+    └── data_generation.md
+```
+
+## Contributing
+
+Contributions are welcome! 
+
+## License
+
+This project is licensed under the MIT License. 
+
+
