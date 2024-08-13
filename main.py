@@ -147,7 +147,7 @@ if __name__ == "__main__":
     # Provide database credentials
     dbname = "data_pipeline_ai_platforms"
     user = "root"
-    password = "reyn"
+    password = "****"
     host = "127.0.0.1"
 
     # Specify platform names and the number of records per platform
